@@ -114,7 +114,14 @@ body {
   height: 4vh;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: 10px;
   color: $white;
   letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 375px) {
+  .footer {
+    font-size: 8px;
+  }
 }

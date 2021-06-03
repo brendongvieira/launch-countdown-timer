@@ -148,8 +148,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
   font-size: 10px;
   color: white;
   letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 375px) {
+  .footer {
+    font-size: 8px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
