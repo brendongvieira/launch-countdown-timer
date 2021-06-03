@@ -21,7 +21,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 70vh;
+  min-height: 100vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -80,6 +80,7 @@ body {
   text-transform: uppercase;
   font-size: 9px;
   font-weight: lighter;
+  margin-bottom: 200px;
 }
 
 .day,
@@ -111,7 +112,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  position: fixed;
+  bottom: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -122,23 +124,36 @@ body {
   background-size: cover;
 }
 
-.social #icon {
+.social #icon1,
+.social #icon2,
+.social #icon3,
+.social i {
+  height: 30px;
   margin: 100px 20px;
   font-size: 28px;
   color: white;
 }
 
-.social #icon:hover {
+.social #icon1:hover,
+.social #icon2:hover,
+.social #icon3:hover,
+.social i:hover {
   color: #fb6087;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
 }
 
+a {
+  height: 10px;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
+  bottom: 0;
   background-color: #191a24;
   width: 100vw;
   height: 4vh;
