@@ -14,7 +14,7 @@ Users should be able to:
 
 ![](./imgs/screenshot.png)
 
-![](./imgs/screenshot_mobile.png)
+<p align="center">![](./imgs/screenshot_mobile.png)</p>
 
 ### Links
 
